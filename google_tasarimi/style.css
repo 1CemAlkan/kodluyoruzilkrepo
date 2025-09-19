@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000;
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #e6e6e6;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+main p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.search-input {
+    width: 300px;
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid #999;
+}
+
+.buttons {
+    margin-top: 5px;
+}
+
+button {
+    font-size: 12px;
+    padding: 4px 8px;
+    margin: 0 2px;
+    cursor: default;
+}
+
+footer {
+    margin-top: 15px;
+    background-color: #5bc0be;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.footer-section {
+    width: 30%;
+    text-align: left;
+}
+
+.footer-section p {
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.footer-section a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.footer-section input[type="email"] {
+    width: 80%;
+    padding: 2px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.footer-section button {
+    font-size: 12px;
+    padding: 2px 6px;
+    margin-right: 5px;
+}
+
+.footer-section a:hover {
+    text-decoration: none;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #333;
+    background-color: transparent;
+    flex: none;
+}
