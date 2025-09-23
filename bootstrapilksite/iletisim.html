@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Müzik Aleti Satış Sitesi - İletişim</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-light">
+    <header class="bg-primary text-white py-1">
+        <div class="container">
+            <h1 class="h3 text-center mb-2">Müzik Aleti Satış Sitesi</h1>
+            <nav>
+                <ul class="nav nav-pills justify-content-start flex-column flex-sm-row">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-white px-3 py-1">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link text-white px-3 py-1">Ürünler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="hakkimizda.html" class="nav-link text-white px-3 py-1">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="iletisim.html" class="nav-link active bg-white text-primary px-3 py-1">İletişim</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <section class="contact">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5">
+                        <h2 class="display-5">İletişim Formu</h2>
+                    </div>
+
+                    <div class="card shadow-sm">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Adınız:</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">E-posta:</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Mesajınız:</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">Gönder</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">© Müzik Aleti Satış Sitesi</p>
+        </div>
+    </footer>
+</body>
+</html>
